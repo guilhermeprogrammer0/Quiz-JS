@@ -83,17 +83,15 @@ button {
     align-items: center;
 }
 
-
-
 .placar>h3 {
     color: #e8f1f2;
     font-size: 2.6em;
     margin:10px;
 
 }
-/*.escondido{
+.escondido{
     display:none;
-}*/
+}
 .btn_reiniciar
 {
     margin-top:30px;
