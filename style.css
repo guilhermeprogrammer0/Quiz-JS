@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@200&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.897);
+    font-family: sans-serif;
+}
+
+.quiz {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.perguntas {
+    color: white;
+    display:none;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:10px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+
+.perguntas h2 {
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 50%;
+    margin: 7px;
+    border: none;
+    border-radius: 4.2px;
+    padding: 15px;
+    cursor: pointer;
+    background-color: black;
+    font-size: 1.1em;
+    color: #e8f1f2;
+}
+
+.confirmar {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 5px;
+}
+
+.placar {
+    max-width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.placar>h3 {
+    color: #e8f1f2;
+    font-size: 2.6em;
+    margin:10px;
+
+}
+/*.escondido{
+    display:none;
+}*/
+.btn_reiniciar
+{
+    margin-top:30px;
+    width: 50%;
+    margin: 7px;
+    border: none;
+    border-radius: 4.2px;
+    padding: 15px;
+    cursor: pointer;
+    background-color: black;
+    font-size: 1.1em;
+    color: #e8f1f2;
+}
+
+
+
+.certa {
+    background-color: #2BD957;
+}
+
+.errada {
+    background-color: #F23030;
+}
+
+.pontos_bons {
+    color: #16F26E;
+    font-family: 'Antonio';
+    font-size: 2em;
+}
+
+.pontos_ruins {
+    color: #F23030;
+    font-family: 'Antonio';
+    font-size: 2em;
+}
+
+
+@media screen and (max-width:600px) {
+    .quiz {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 30px;
+        padding: 6px;
+    }
+    
+.perguntas {
+    width: 100%;
+}
+.perguntas h2 {
+    font-size: 1.2em;
+}
+
+
+
+}
